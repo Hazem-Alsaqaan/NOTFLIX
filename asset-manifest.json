@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NOTFLIX/static/css/main.d2cd973d.css",
+    "main.js": "/NOTFLIX/static/js/main.f42715f3.js",
+    "static/js/787.0e6dc9a4.chunk.js": "/NOTFLIX/static/js/787.0e6dc9a4.chunk.js",
+    "index.html": "/NOTFLIX/index.html",
+    "main.d2cd973d.css.map": "/NOTFLIX/static/css/main.d2cd973d.css.map",
+    "main.f42715f3.js.map": "/NOTFLIX/static/js/main.f42715f3.js.map",
+    "787.0e6dc9a4.chunk.js.map": "/NOTFLIX/static/js/787.0e6dc9a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2cd973d.css",
+    "static/js/main.f42715f3.js"
+  ]
+}
