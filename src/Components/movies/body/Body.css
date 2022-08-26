@@ -1,0 +1,50 @@
+
+.all-movies {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.box-movie {
+    overflow: hidden;
+    text-align: center;
+    background-color: aliceblue;
+    cursor: pointer;
+    position: relative;
+}
+
+.box-movie img {
+    max-width: 100%;
+}
+.box-movie .text-box {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 0%;
+    bottom: -15px;
+    left: 0px;
+    padding: 10px;
+    transition-duration: .8s;
+}
+.box-movie:hover .text-box{
+    height: 90%;
+}
+.box-movie .text-box h5 {
+    color: #e50914;
+    padding: 3px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.box-movie .text-box p {
+    color: #eee;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.box-movie .text-box p:last-child {
+    color: #ccc;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.not-found {
+    text-align: center;
+}
+.not-found-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.not-found .box-not-found {
+    color: white;
+    font-size: 50px;
+}
+.not-found h4{
+    color: #e50914;
+}
